@@ -1,0 +1,11 @@
+Homework: Definiciones
+
+Variables: sirven para poder recurrir a datos, guardandolos previamente.
+
+Strings: son datos que no pueden ser sometidos (la mayoría de las veces) a operaciones matemáticas, sino que actúan como partículas sintácticas (como palabras en oraciones).
+
+Funciones: nos permiten guardar cantidades grandes de información en bloques, ahorrándonos el trabajo de escribir muchas líneas de código todo el tiempo. El return sería lo que nosotros queremos que nos devuelva la función, mientras el argumento es el 'como'.
+
+Declaraciones 'if': son aquellas que, dado un argumento cuyas condiciones puedan darse o no, siempre devuelven una respuesta al usuario (siendo esta respuesta específicada siempre dentro del argumento).
+
+Valores booleanos: son aquellos que pueden tener 2 valores, verdadero o falso.
