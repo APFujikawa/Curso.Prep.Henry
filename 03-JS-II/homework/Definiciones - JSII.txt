@@ -1,0 +1,86 @@
+
+--------------------------------BUCLES 'FOR'-----------------------------------------------
+
+Son instrucciones que están formadas por declaraciones, puestas en un orden específico y de una manera en especial:
+
+
+
+
+      for ([donde comienza el bucle]; [expresión condicional]; [expresión final]) {
+ 
+         [bloque de código];
+
+      }
+
+
+
+
+En [donde comienza el bucle] se declara una variante desde donde queremos que comience el bucle (ej: var i = -12), que sería desde donde queremos que se empiece a contar. 
+
+En [expresión condicional] se coloca una declaración (ej: i < 10) que determinará que el bucle siga repitiéndose hasta que esta sea falsa (o sea, que recorra de los números - 12 al 10).
+
+En [expresión final] se incrementa la variable mediante el operador ++ (ej: i++).
+
+Dentro de las llaves iría el [bloque de código] que se ejecutará siempre que la [expresión condicional] demuestre ser verdadera. El bucle completará un ciclo cada vez que el argumento demuestre ser 'true', de lo contrario, dejará de funcionar. En el caso de que la [expresión condicional] no tenga un límite definido (ej: i <= 0), el bucle se ejecutará infinitamente, provocando que el código crashee la aplicación que lo ejecute. 
+
+for ( var i = 1; i > 15; i++ ) {
+ if (  i % 3 === 0) {
+   return (i + ' Es múltiplo de 3');
+ }
+}
+
+Consola:
+3 Es múltiplo de 3
+6 Es múltiplo de 3
+9 Es múltiplo de 3
+12 Es múltiplo de 3
+15 Es múltiplo de 3
+ 
+
+
+
+
+-------------------------------OPERADORES LÓGICOS--------------------------------------------
+
+Sirven para combinar dos expresiones de igualdad o desigualdad entre dos variables o valores, y determinar, mediante comparar si son verdaderas o no, si sus condiciones se cumplen.
+
+
+&& --> Operador "AND" o "Y": si ambas variables son verdaderas, la declaración es verdadera; si una de ellas o ambas son falsas, la declaración es falsa.
+
+Ejemplo:  
+
+    if (numero % 3 === 0 && numero < 6) {
+        return true;
+    }
+     else { 
+        return false;
+     }
+    }
+
+
+
+|| --> Operador "OR" u "Ó": en esta declaración, al menos una de ellas debe ser verdadera. Si ambas son falsas, la declaración es falsa.
+
+Ejemplo:
+     
+     if (numero % 4 === 0 || numero > 13) {
+         return true;
+     }
+      else {
+         return false;
+      }
+     } 
+
+
+
+! --> Operador "NOT" o "NO": este operador convierte una declaración true en una "falsy" y viceversa. Puede usarse en conjunto con cualquiera de los operadores lógicos.
+
+Ejemplo:
+      const a = 3;
+      const b = -2;
+
+      console.log(!(a > 0 || b > 0));
+
+
+Consola:
+false
