@@ -1,0 +1,3 @@
+---------------------------------------------ARRAYS---------------------------------------------
+
+Se puede definir a las matrices o arreglos como listas ordenadas de elementos (que pueden ser distintos o no), y que pueden llegar a 
