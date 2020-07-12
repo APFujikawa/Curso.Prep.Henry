@@ -1,3 +1,24 @@
 ---------------------------------------------ARRAYS---------------------------------------------
 
-Se puede definir a las matrices o arreglos como listas ordenadas de elementos (que pueden ser distintos o no), y que pueden llegar a 
+Se puede definir a las matrices o arreglos como colecciones ordenadas de datos (de un mismo tipo o diferentes).
+
+
+Estos datos pueden ser números, cadenas, booleanas e incluso otros arrays.
+
+
+
+Ejemplo: 
+var contenidoQuePuedeHaberEnElArray = [1, 2, 2, 'cuatro', true, [6, 7, 8];
+
+
+
+Los elementos dentro del array están numerados a partir del 0, por lo que el último elemento de la lista se le asignará una cifra menor en uno al número total de elementos.
+
+Ejemplo:
+    
+    var listaOrdenada = [1, 2, 3, 4];
+
+  //Nro correspondiente: 0  1  2  3
+
+
+Esta regla es importante recordarla, ya que sirve para poder referirnos a los elementos de la matriz de manera directa, aunque no sepamos su contenido ni tampoco el número exacto de elementos que se encuentren en ella.
