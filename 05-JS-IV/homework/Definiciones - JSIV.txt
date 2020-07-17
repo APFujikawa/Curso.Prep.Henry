@@ -1,0 +1,76 @@
+
+
+
+-----------------------------------------OBJETOS----------------------------------------------
+
+
+
+Son grupos de datos centrados en un mismo tema, en los cuales el orden realmente no importa (a diferencia de los arrays).
+Su nombre se declara como una variable, y los datos se encierran entre llaves, separados entre sí por comas.
+Ej:
+
+
+var omelette = {
+  huevos: 2,
+  queso: '2 fetas',
+  dificultad: true
+  coccion: function(){
+     console.log('Sizzle, sizzle');
+  }
+} 
+
+
+
+---------------------------------------PROPIEDADES--------------------------------------------
+
+
+Son los elementos ubicados entre las llaves, y son los que aportan información acerca del objeto. Están formados por una keyword (palabra clave), y un value (valor o parámetro): la keyword sirve para referirse a una propiedad específica del objeto ([nombre de la variable].[keyword]), y cumplen el mismo rol que los números en los arrays; mientras que la value puede ser cualquier tipo de dato, al igual que en los arrays.
+
+
+
+
+
+---------------------------------------MÉTODOS-----------------------------------------------
+
+Son funciones que, por definición, son iguales a las otras propiedades de un objeto. Pueden ser invocadas simúltaneamente por varios objetos a la vez.
+
+Ej:
+
+//Objeto global 
+
+devolverEdad: function(){
+    return: this.edad*2;
+}
+
+var listaDeAlumnos= {
+  var Marco = {
+      nombre: Marco,
+      edad: 12,
+      devolverEdad:devolverEdad,
+   };
+
+  var Susy = {
+      nombre: Susy,
+      edad: 11,
+      devolverEdad:devolverEdad,
+  }; 
+
+-------------------------------------BUCLES FOR...IN ------------------------------------
+
+Funcionan como los bucles FOR numéricos, pero estos iteran sobre cada par key-value del objeto. Se usan cuando se quiere verificar que los valores ingresados coincidan con los valores asignados a la palabra clave del objeto a iterar.
+
+Ej:
+const usuario = {
+    username: EarthCrustBreaker,
+    password: K1tty!
+};
+
+for (let password in usuario) {
+     console.log.(password);
+     console.log(usuario.password);
+}
+
+
+----------------------------------DOT NOTATION VS BRACKET NOTATION------------------------------------
+
+El usar corchetes o puntos a la hora de escribir una propiedad depende de los casos. Los corchetes permiten una mayor libertad a la hora de declarar alguna propiedad, además de que a veces permiten una lectura más clara.
